@@ -19,12 +19,14 @@ le fichier forgotpassword.php (code qui appelle le webservice pour envoyer un la
 
 # La table des utilisateurs (simulez les requêtes sur mysql, mongo ou sqlserver… peu importe) : 
 
+```
 PK_USER (bigint, pk, autoincrement)
 S_EMAIL (varchar)
 S_PASSWORD (varchar)
 D_DATE_ADD (date)
 B_ACTIF (bool)
 D_DATE_NAISSANCE (date)
+```
 
 # Bonus :
 
