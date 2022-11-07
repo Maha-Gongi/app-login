@@ -6,10 +6,10 @@
 
 # Les demandes :
 
-le fichier webservice.php (dedans les fonctions pour correspondre en curl/json avec le front)
-le fichier login.php (code pour appeler le webservice pour savoir si le email/pass a un compte)
-le fichier register.php (code qui appelle le webservice pour enregistrer un utilisateur)
-le fichier forgotpassword.php (code qui appelle le webservice pour envoyer un la demande de réinitialisation de compte qui envoie le mot de pass sur le mail)
+- le fichier webservice.php (dedans les fonctions pour correspondre en curl/json avec le front)
+- le fichier login.php (code pour appeler le webservice pour savoir si le email/pass a un compte)
+- le fichier register.php (code qui appelle le webservice pour enregistrer un utilisateur)
+- le fichier forgotpassword.php (code qui appelle le webservice pour envoyer un la demande de réinitialisation de compte qui envoie le mot de pass sur le mail)
 
 # Les contraintes sont les suivante :
 
