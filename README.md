@@ -32,4 +32,4 @@ D_DATE_NAISSANCE (date)
 
 Proposer une méthode mieux sécurisé avec le code pour le reset du mot de pass
 
-# # N'oubliez pas d'envoyer le lien sur les emails du PDF
+# N'oubliez pas d'envoyer le lien sur les emails du PDF
