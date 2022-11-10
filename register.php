@@ -191,20 +191,25 @@
 
 <body oncontextmenu='return false' class='snippet-body'>
     <div class="wrapper bg-white">
-        <div class="h2 text-center">My super form</div>
-        <div class="h4 text-muted text-center pt-2">Entrez votre login</div>
+        <div class="h2 text-center">SIGN UP</div>
         <form class="pt-3">
-            <div class="form-group py-2">
-                <div class="input-field"> <span class="far fa-user p-2"></span> <input type="text" name="username" placeholder="Username or Email Address" required class=""> </div>
+            <div class="form-group py-2"> Adresse Email:
+                <div class="input-field"><span class="far fa-user p-2"></span> <input type="text" name="email2" placeholder="Email Address" required class=""> </div>
             </div>
-            <div class="form-group py-1 pb-2">
-                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="password" name="password" placeholder="Enter your Password" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
+            <div class="form-group py-1 pb-2"> Mot de passe:
+                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="password" name="pass2" placeholder=" Enter your Password" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
+            </div>
+            <div class="form-group py-1 pb-2"> Date d'ajout:
+                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="date" placeholder="Enter your Date" required class=""> </div>
+            </div>
+            <div class="form-group py-1 pb-2"> Actif:
+                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="boolean=false" placeholder="Inactif" required class=""> </div>
+            </div>
+            <div class="form-group py-1 pb-2"> Date de naissance:
+                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="date" placeholder="Enter your Date of Birth" required class=""> </div>
             </div>
             <div class="d-flex align-items-start">
-                <div class="remember"> <label class="option text-muted"> Remember me <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
-                <div class="ml-auto"> <a href="#" id="forgot">Forgot Password?</a> </div>
-            </div> <button class="btn btn-block text-center my-3">Log in</button>
-            <div class="text-center pt-3 text-muted">Pas de compte? <a href="register.php">Sign up</a></div>
+            </div> <button class="btn btn-block text-center my-3">Register</button>
         </form>
     </div>
     <script type='text/javascript'></script>
