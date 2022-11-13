@@ -196,19 +196,13 @@ require 'webservice.php';
 
 <body oncontextmenu='return false' class='snippet-body'>
     <div class="wrapper bg-white">
-        <div class="h2 text-center">SIGN UP</div>
-        <form class="pt-3" action="./webservice.php" method="POST" id="register">
+        <div class="h2 text-center">FORGOT PASSWORD</div>
+        <form class="pt-3" action="./webservice.php" method="POST" id="forgotpassword">
             <div class="form-group py-2"> Adresse Email:
-                <div class="input-field"><span class="far fa-user p-2"></span> <input type="email" name="username" placeholder="Email Address" required> </div>
-            </div>
-            <div class="form-group py-1 pb-2"> Mot de passe:
-                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="password" name="password" placeholder=" Enter your Password" required> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
-            </div>
-            <div class="form-group py-1 pb-2"> Date de naissance:
-                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="date" name="date_naissance" placeholder="Enter your Date of Birth" required> </div>
+                <div class="input-field"><span class="far fa-user p-2"></span> <input type="email" name="email" placeholder="Email Address" required> </div>
             </div>
             <div class="d-flex align-items-start">
-            </div> <input type="submit" name="fct2" value="Register" class="btn btn-block text-center my-3">
+            </div> <input type="submit" name="fct3" value="SEND" class="btn btn-block text-center my-3">
         </form>
     </div>
     <script type='text/javascript'></script>

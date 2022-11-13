@@ -1,3 +1,8 @@
+<?php
+require 'webservice.php';
+
+//
+?>
 <!doctype html>
 <html>
 
@@ -193,25 +198,23 @@
     <div class="wrapper bg-white">
         <div class="h2 text-center">My super form</div>
         <div class="h4 text-muted text-center pt-2">Entrez votre login</div>
-        <form class="pt-3">
-            <div class="form-group py-2">
-                <div class="input-field"> <span class="far fa-user p-2"></span> <input type="text" name="username" placeholder="Username or Email Address" required class=""> </div>
+        <form class="pt-3" action="./webservice.php" method="POST" id="login">
+            <div class="form-group py-2  position-relative">
+                <div class="input-field form-control needs-validation "> <span class="far fa-user p-2"></span>
+                    <input type="email" name="username" id="username" placeholder="Username or Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </div>
             </div>
             <div class="form-group py-1 pb-2">
-                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="password" name="password" placeholder="Enter your Password" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
+                <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="password" name="password" id="password" placeholder="Enter your Password" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
             </div>
             <div class="d-flex align-items-start">
                 <div class="remember"> <label class="option text-muted"> Remember me <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
-                <div class="ml-auto"> <a href="#" id="forgot">Forgot Password?</a> </div>
-            </div> <button class="btn btn-block text-center my-3">Log in</button>
-            <div class="text-center pt-3 text-muted">Pas de compte? <a href="register.php">Sign up</a></div>
+                <div class="ml-auto"> <a href="forgotpassword.php" id="forgot">Forgot Password?</a> </div>
+            </div> <input type="submit" class="btn btn-block text-center my-3" name="fct1" value="Log in">
+            <div class="text-center pt-3 text-muted">Pas de compte? <a href="register.php" id="register" target="">Sign up</a></div>
         </form>
     </div>
     <script type='text/javascript'></script>
 </body>
-<?php
-
-
-?>
 
 </html>
